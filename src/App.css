@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.register-container {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  -webkit-box-shadow: 6px 0px 19px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 0px 19px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 0px 19px -4px rgba(0, 0, 0, 0.75);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+form{
+  width: 95%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form-group {
+  width: 100%;
+  height: 64px;
+  top: 307px;
+  left: 765px;
+  gap: 0px;
+  margin-bottom: 8px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 600;
+  font-size: small;
+}
+
+input {
+  width: 93%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.already {
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+
+.right-panel{
+  padding: 15px 35px;
+}
+
+.right-panel p {
+  text-align: center;
+  color: #a9a6a6;
+  margin-top: 0;
+  font-size: small;
+}
+
+.right-panel h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
