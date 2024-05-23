@@ -90,7 +90,7 @@ input {
 }
 
 button {
-  width: 100%;
+  width: 105%;
   padding: 10px;
   background-color: black;
   color: white;
@@ -132,6 +132,25 @@ a:hover {
 
 .right-panel h2 {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: px;
 }
 
+
+
+
+
+
+.otp-field {
+  display: flex;
+  gap: 13px;
+}
+.otp-field input {
+  width: 10px;
+  height: 13px;
+  top: 368px;
+  left: 1034px;
+  gap: 25px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid #989898;
+  }
